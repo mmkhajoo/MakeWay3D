@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1782213358688852}
+  m_IsPrefabAsset: 1
+--- !u!1 &1782213358688852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4569683932342730}
+  - component: {fileID: 114379144713883672}
+  m_Layer: 0
+  m_Name: ResourcesManagerCore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4569683932342730
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782213358688852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114379144713883672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782213358688852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae563e4d7ffe8a7488cec3b94f0fafbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelGameObjects:
+  - obj_id: ChangeGravity
+    nickName: CG
+    steps: 0
+    objPrefab: {fileID: 1438415095622994, guid: 7e5ba0c58ec083843bd6bd5990405198,
+      type: 2}
+  - obj_id: LeftRight
+    nickName: LR
+    steps: 1
+    objPrefab: {fileID: 1643793823465316, guid: 909c1c2067cf6db41aaf7d816bf4da35,
+      type: 2}
+  - obj_id: Rotator
+    nickName: Ro
+    steps: 1
+    objPrefab: {fileID: 1177679150343928, guid: d2daa003ef67ef14892a9bcd9e7287c2,
+      type: 2}
+  - obj_id: SizeMinMax
+    nickName: SMX
+    steps: 1
+    objPrefab: {fileID: 1376011030250210, guid: f68574681421aa641bec2ef9c9db1b46,
+      type: 2}
+  - obj_id: UpDown
+    nickName: UD
+    steps: 1
+    objPrefab: {fileID: 1326777788039268, guid: 0599b95d8b682be4ebc7fcdc291cfd86,
+      type: 2}
+  - obj_id: UpDownBallStop
+    nickName: UDB
+    steps: 2
+    objPrefab: {fileID: 1578468175162648, guid: 2439cd4f2af42ba4fab960ad5f13059d,
+      type: 2}
+  - obj_id: End
+    nickName: END
+    steps: 0
+    objPrefab: {fileID: 1174360122923094, guid: 2229bc8998e85e7488f41fcb66c66ac9,
+      type: 2}
+  - obj_id: BasicJumpField
+    nickName: BJF
+    steps: 1
+    objPrefab: {fileID: 1837144572558930, guid: 4b0a67264164e1e4ab8f136145fbaa6c,
+      type: 2}
+  - obj_id: RotatorY
+    nickName: RY
+    steps: 1
+    objPrefab: {fileID: 1141406263181080, guid: 30bfc3ba4d6976e49b82c2be00343767,
+      type: 2}
+  - obj_id: StickyField
+    nickName: SF
+    steps: 1
+    objPrefab: {fileID: 1622691684889786, guid: 43cac7f0ff65e7e46abb811d80d7f05f,
+      type: 2}
+  - obj_id: JumpPushField
+    nickName: JP
+    steps: 2
+    objPrefab: {fileID: 1218769918288990, guid: ca4eac0437f57724a860abbb5b7053bd,
+      type: 2}
+  - obj_id: StartField
+    nickName: Start
+    steps: 0
+    objPrefab: {fileID: 1756095747098950, guid: 40b2e43b539e1364ba06011cf27c884c,
+      type: 2}
+  - obj_id: BouncyStickMinMaxField
+    nickName: BSMM
+    steps: 3
+    objPrefab: {fileID: 1689024641206456, guid: 5ae4868c3cb75684c8e085b74c9f1047,
+      type: 2}
+  - obj_id: WindZoneField
+    nickName: Wind
+    steps: 2
+    objPrefab: {fileID: 1365184649531162, guid: 78d29eabebf6d444aa5c92cee86048ee,
+      type: 2}
+  - obj_id: TeleporterField
+    nickName: Tel
+    steps: 1
+    objPrefab: {fileID: 1432611793686448, guid: cb7c3c89c2d61044c876c7741c87e4fc,
+      type: 2}
