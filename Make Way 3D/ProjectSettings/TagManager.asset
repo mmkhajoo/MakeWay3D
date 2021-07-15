@@ -4,15 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Shootable
+  - Field
   - Ground
+  - MidBall
   - MovingObj
   - JumpObject
   - GroundsManager
-  - ButtonManager
   - GameManager
-  - Field
+  - ButtonManager
   - Feild
-  - MidBall
+  - UiManager
   layers:
   - Default
   - TransparentFX
@@ -22,12 +24,12 @@ TagManager:
   - UI
   - 
   - 
+  - Lighting
   - Ground
-  - MovingObj
   - Player
-  - Invisible
-  - MidBall
-  - MidBallDetector
+  - Points
+  - 
+  - 
   - 
   - 
   - 
@@ -47,6 +49,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

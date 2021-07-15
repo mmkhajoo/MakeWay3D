@@ -18,9 +18,23 @@ public class Level_GameObject : MonoBehaviour
     public Vector3 worldPositionOffset;
 
     public Vector3 worldRotation;
-
-
+    
     public float rotateDegrees;
+
+    //-----------------Score --------------------//
+
+
+    public String scoreType;
+    
+    public float[] rangeNumbers;
+
+    public int[] scores;
+
+    public bool isBall;
+    
+    
+    //---------------End Score --------------//
+    
 
     public void UpdateNode(Node[,] grid)
     {
@@ -91,4 +105,4 @@ public class SaveableLevelObject
     public float rotZ;
 
 }
-
+        

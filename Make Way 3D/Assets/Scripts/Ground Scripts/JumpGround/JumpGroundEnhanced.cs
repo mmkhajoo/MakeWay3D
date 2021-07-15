@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class JumpGroundEnhanced : MonoBehaviour
@@ -28,7 +27,13 @@ public class JumpGroundEnhanced : MonoBehaviour
 
     private bool castOnce;
 
+    public bool X, Y, Z;
+
     public Vector3 startPosition;
+
+    private GameManager _gameManager;
+
+    private bool permissionCheckGameOver;
 
 
 //    private Vector3 tempPosition;
@@ -38,11 +43,13 @@ public class JumpGroundEnhanced : MonoBehaviour
     {
         playerRb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
         playerMove = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>();
+        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         nextStopPosition = nextStopPosition + transform.localPosition;
         startPosition = transform.position;
         castOnceForSetStartPosition = true;
         castOnce = true;
         ground.IsMove = true;
+        permissionCheckGameOver = false;
     }
 
     // Update is called once per frame
@@ -50,15 +57,12 @@ public class JumpGroundEnhanced : MonoBehaviour
     {
         if (withNextStop)
         {
-            if (transform.localPosition.x >= nextStopPosition.x)
-            {
-                groundRb.isKinematic = true;
-            }
+            StartCoroutine(StopObjectWithNextStop());
         }
-        
+
         if (!ground.IsMove)
         {
-            if (!castOnce)return;
+            if (!castOnce) return;
             if (withNextStop)
                 JumpWithNextStopAndIsBallMove();
             else
@@ -110,6 +114,8 @@ public class JumpGroundEnhanced : MonoBehaviour
         groundRb.velocity = transform.TransformDirection(temp);
         yield return new WaitForSeconds(castTime);
         groundRb.isKinematic = true;
+        yield return new WaitForSeconds(1f);
+        permissionCheckGameOver = true;
     }
 
     private void OnCollisionEnter(Collision other)
@@ -122,6 +128,12 @@ public class JumpGroundEnhanced : MonoBehaviour
                 stopTheBallOnce = false;
             }
 
+            if (permissionCheckGameOver)
+                if (!ground.IsMove)
+                {
+                    _gameManager.GameOver();
+                }
+
 //            if(isBallMove)
 //                playerMove.stopForcingBall = false;
         }
@@ -132,5 +144,37 @@ public class JumpGroundEnhanced : MonoBehaviour
         var tempLocation = transform.InverseTransformDirection(transform.position);
         tempLocation += nextStop;
         return transform.TransformDirection(tempLocation);
+    }
+
+
+    public IEnumerator StopObjectWithNextStop()
+    {
+        if (X)
+        {
+            if (transform.localPosition.x >= nextStopPosition.x)
+            {
+                groundRb.isKinematic = true;
+                yield return new WaitForSeconds(1f);
+                permissionCheckGameOver = true;
+            }
+        }
+        else if (Y)
+        {
+            if (transform.localPosition.y >= nextStopPosition.y)
+            {
+                groundRb.isKinematic = true;
+                yield return new WaitForSeconds(1f);
+                permissionCheckGameOver = true;
+            }
+        }
+        else if (Z)
+        {
+            if (transform.localPosition.z >= nextStopPosition.z)
+            {
+                groundRb.isKinematic = true;
+                yield return new WaitForSeconds(1f);
+                permissionCheckGameOver = true;
+            }
+        }
     }
 }

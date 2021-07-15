@@ -10,6 +10,7 @@ public class ResourcesManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        
     }
 
     public LevelGameObjectBase GetObjBase(string objId)

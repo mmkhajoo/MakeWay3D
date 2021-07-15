@@ -34,6 +34,7 @@ public class HitTargetPosition : MonoBehaviour
 	{
 		Vector3 toTarget = target.position - transform.position;
 		
+		
 		// Set up the terms we need to solve the quadratic equations.
 		float gSquared = Physics.gravity.sqrMagnitude;
 		float b = speed * speed + Vector3.Dot(toTarget, Physics.gravity);    

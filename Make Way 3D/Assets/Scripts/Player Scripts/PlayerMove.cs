@@ -54,22 +54,22 @@ public class PlayerMove : MonoBehaviour
     public GameManager gameManager;
 
     // Use this for initialization
-    
+
     //Stop Add Velocity To Ball To Thr Ball
     public bool stopForcingBall;
+
+    public ParticleSystem particleSystem;
+
+    //Check Game Over
+
     private void Start()
     {
-        //CancelInvoke("MovePlayer");
-        //CreateStartFeild();
-        //isMove = true;
-        //InvokeRepeating("StartMove",0.5f,0.1f);
-//        transform.InverseTransformDirection(transform.position);
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if(Time.timeScale == 0)return;
+        if (Time.timeScale == 0) return;
         if (isMove)
         {
             //            if (StartInvoke) return;
@@ -120,9 +120,9 @@ public class PlayerMove : MonoBehaviour
 
     public void LateUpdate()
     {
-        if(Time.timeScale == 0)return;
+        if (Time.timeScale == 0) return;
         InteractRaycast();
-        
+
 //        if (!brakeScript.isBrake && (rb.velocity.magnitude < velocity_Manitude_LessThanThis_GameOver))
 //        {
 //            if (!checkGameOverWithStopedBall)
@@ -133,8 +133,8 @@ public class PlayerMove : MonoBehaviour
 //
 //            //gameManager.GameOver();
 //        }
-        if ((rb.velocity.magnitude <= velocity_Manitude_LessThanThis_GameOver))
-        {
+//        if ((rb.velocity.magnitude <= velocity_Manitude_LessThanThis_GameOver))
+//        {
 //            Debug.Log("GameOverWith Velocity Called");
             if (!checkGameOverWithStopedBall)
             {
@@ -146,7 +146,7 @@ public class PlayerMove : MonoBehaviour
             }
 
             //gameManager.GameOver();
-        }
+//        }
     }
 
     private void InteractRaycast()
@@ -161,11 +161,10 @@ public class PlayerMove : MonoBehaviour
         var interactionRayLength = 100f;
 
         var hitFound = Physics.Raycast(interactionRay, out interactionRaycastHit, interactionRayLength);
-        if(!hitFound)
+        if (!hitFound)
         {
-           gameManager.GameOver();
+            gameManager.GameOver();
         }
-        
     }
 
     private void MovePlayer()
@@ -258,12 +257,19 @@ public class PlayerMove : MonoBehaviour
 
     IEnumerator CheckGameOver()
     {
-        yield return new WaitForSeconds(1f);
-        for (int i = 0; i < 100; i++)
+        Vector3 temp;
+        yield return new WaitForSeconds(2f);
+//        Debug.Log("Check Game Over Start");
+        for (int i = 0; i < 10; i++)
         {
-            if ((rb.velocity.magnitude <= velocity_Manitude_LessThanThis_GameOver))
-                gameManager.GameOver();
-            //yield return new WaitForSeconds(0.2f);
+            temp = RoundVector3(transform.position);
+
+            yield return new WaitForSeconds(1f);
+            if (temp.Equals(RoundVector3(transform.position)))
+                if (!stopForcingBall)
+                {
+                    gameManager.GameOver();
+                }
         }
 
         checkGameOverWithStopedBall = false;
@@ -272,4 +278,32 @@ public class PlayerMove : MonoBehaviour
     public void Gameover()
     {
     }
+
+    public void CheckGameOverWithPosition()
+    {
+        Vector3 temp = RoundVector3(transform.position);
+
+        if (temp.Equals(RoundVector3(transform.position)))
+            gameManager.GameOver();
+    }
+
+    public Vector3 RoundVector3(Vector3 position)
+    {
+        return new Vector3(Mathf.RoundToInt(position.x), Mathf.RoundToInt(position.y), Mathf.RoundToInt(position.z));
+    }
+
+    private IEnumerator StartParticleIE()
+    {
+        particleSystem.Play();
+        yield return new WaitForSeconds(1f);
+        particleSystem.Stop();
+    }
+
+    public void StartParticle()
+    {
+        Instantiate(particleSystem.gameObject,transform.position, Quaternion.identity);
+//        particleSystem.Play();
+    }
+    
+    
 }

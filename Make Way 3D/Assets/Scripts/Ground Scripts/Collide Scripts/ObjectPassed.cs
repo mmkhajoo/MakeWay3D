@@ -31,10 +31,12 @@ public class ObjectPassed : MonoBehaviour {
             {
                 
                 groundsManager.GroundStopMove();
-               
+                buttonManager.permissionToStopObject = false;
+
 
             }
             groundsManager.DestroyFieldGameObject();
+            groundsManager.ChangeGameProgress();
         }
     }
 }

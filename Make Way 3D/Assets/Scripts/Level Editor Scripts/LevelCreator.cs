@@ -58,7 +58,7 @@ public class LevelCreator : MonoBehaviour
 
 			if (cloneObject == null)
 			{
-				cloneObject = Instantiate(objectToPlace,worldPosition,Quaternion.identity);
+				cloneObject = Instantiate(objectToPlace,worldPosition,objectToPlace.transform.rotation);
 				objProperties = cloneObject.GetComponent<Level_GameObject>();
 			}
 			else

@@ -13,6 +13,8 @@ namespace Ground_Scripts
     {
         public GameManager gameManager;
 
+        public UiManager uiManager;
+
         public CameraMove cameraMove;
 
         //Name Of The GameObjects
@@ -119,6 +121,7 @@ namespace Ground_Scripts
             {
                 gameManager.isGameStart = true;
                 destroyCounter = ObscuredPrefs.GetInt("DestroyCounter");
+                uiManager.ChangeGameProgressInstantly(((destroyCounter - 1f)/(creatGrounds.fieldGameObjectsList.Count - 1f))*1f);
                 Debug.Log("DestroyCounter" + destroyCounter);
 //                SetBallPosition(Player,
 //                    creatGrounds.fieldGameObjectsList[destroyCounter]);
@@ -140,7 +143,6 @@ namespace Ground_Scripts
             else
             {
                 SetBallPosition(Player, creatGrounds.fieldGameObjectsList[0]);
-                gameManager.isGameStart = true;
             }
         }
 
@@ -180,15 +182,15 @@ namespace Ground_Scripts
         {
 //            Vector3 temp = startField.GetComponent<Transform>().position;
             Vector3 temp;
-//            Debug.Log(startField.transform.position);
-//            Debug.Log(startField.name);
+//           Debug.Log(startField.transform.position);
+//           Debug.Log(startField.name);
             temp = startField.transform.InverseTransformDirection(startField.transform.position);
 
-//            Debug.Log(temp);
+//          Debug.Log(temp);
             temp.x -= startDistanceBallForFirstGround;
 
-            temp.y += 3f;
-            //Debug.Log(tempLocation.position);
+            temp.y += 5f;
+        //    Debug.Log(tempLocation.position);
 
             //                Debug.Log(tempObj.GetComponent<BoxCollider>().bounds.size.x);
 
@@ -212,6 +214,13 @@ namespace Ground_Scripts
             creatGrounds.groundScripts[stopCount].IsMove = !creatGrounds.groundScripts[stopCount].IsMove;
 
             stopCount++;
+        }
+
+        public void ChangeGameProgress()
+        {
+            StartCoroutine(uiManager.ChangeGameProgressSlider(((destroyCounter - 1f)/(creatGrounds.fieldGameObjectsList.Count - 1f))*1f,
+                ((destroyCounter)/(creatGrounds.fieldGameObjectsList.Count - 1f))*1f
+                ));
         }
 
         [Serializable]

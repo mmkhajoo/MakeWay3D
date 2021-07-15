@@ -40,7 +40,7 @@ public class Magnet : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Time.timeScale == 0) return;
         if (ismagnetOn)

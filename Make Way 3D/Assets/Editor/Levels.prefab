@@ -1,21 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1082320806346584}
-  m_IsPrefabAsset: 1
 --- !u!1 &1082320806346584
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4781904050525802}
@@ -29,9 +19,10 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &4781904050525802
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082320806346584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.971067, y: 52.062252, z: -127.711075}
@@ -42,9 +33,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114347399711817116
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082320806346584}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -138,79 +130,6 @@ MonoBehaviour:
       rotZ: 0
   - saveableLevelObjects_List:
     - obj_id: StartField
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 500
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 600
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 650
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 600
-      posY: 0
-      posZ: 400
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 5
-      nodePosZ: 5
-      posX: 550
-      posY: 0
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
-      nodePosZ: 3
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
       nodePosX: 3
       nodePosZ: 3
       posX: 300
@@ -222,93 +141,11 @@ MonoBehaviour:
     - obj_id: LeftRight
       nodePosX: 4
       nodePosZ: 3
-      posX: 350
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 4
-      nodePosZ: 4
-      posX: 350
-      posY: 0
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 4
-      nodePosZ: 5
-      posX: 350
-      posY: 0
-      posZ: 550
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 4
-      nodePosZ: 6
       posX: 400
-      posY: 0
-      posZ: 600
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 5
-      nodePosZ: 6
-      posX: 500
-      posY: 0
-      posZ: 600
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 200
       posY: 0
       posZ: 300
       rotX: -0
       rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 350
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 4
-      nodePosZ: 4
-      posX: 400
-      posY: 0
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 5
-      nodePosZ: 4
-      posX: 450
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 90
       rotZ: 0
     - obj_id: UpDown
       nodePosX: 5
@@ -328,472 +165,234 @@ MonoBehaviour:
       rotX: -0
       rotY: 0
       rotZ: 0
-    - obj_id: End
+    - obj_id: RotateToLeft
       nodePosX: 7
-      nodePosZ: 4
-      posX: 650
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
       nodePosZ: 3
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 3
-      nodePosZ: 3
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 4
-      nodePosZ: 3
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 450
-      posY: 14
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 5
-      nodePosZ: 4
-      posX: 450
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 4
-      nodePosZ: 5
-      posX: 400
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 3
-      nodePosZ: 5
-      posX: 300
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 3
-      nodePosZ: 4
-      posX: 250
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 90.00001
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
-      nodePosZ: 3
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 3
-      nodePosZ: 3
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 4
-      nodePosZ: 3
-      posX: 350
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 4
-      nodePosZ: 4
-      posX: 350
-      posY: 0
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 4
-      nodePosZ: 5
-      posX: 350
-      posY: 0
-      posZ: 550
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 4
-      nodePosZ: 6
-      posX: 400
-      posY: 14
-      posZ: 600
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 5
-      nodePosZ: 6
-      posX: 500
-      posY: 14
-      posZ: 600
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 6
-      nodePosZ: 6
-      posX: 550
-      posY: 14
-      posZ: 550
-      rotX: -0
-      rotY: 90.00001
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 6
-      nodePosZ: 5
-      posX: 600
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
-      nodePosZ: 3
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 3
-      nodePosZ: 3
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 4
-      nodePosZ: 3
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 450
-      posY: 14
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 4
-      nodePosZ: 4
-      posX: 400
-      posY: 14
-      posZ: 400
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 3
-      nodePosZ: 4
-      posX: 350
-      posY: 28
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 4
-      nodePosZ: 5
-      posX: 400
-      posY: 28
-      posZ: 500
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 5
-      nodePosZ: 5
-      posX: 450
-      posY: 28
-      posZ: 550
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 3
-      nodePosZ: 4
-      posX: 300
-      posY: 0
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 4
-      nodePosZ: 4
-      posX: 400
-      posY: 0
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 5
-      nodePosZ: 4
-      posX: 500
-      posY: 0
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 6
-      nodePosZ: 4
-      posX: 550
-      posY: 0
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 6
-      nodePosZ: 5
-      posX: 600
-      posY: 0
-      posZ: 500
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 7
-      nodePosZ: 5
-      posX: 650
-      posY: 0
-      posZ: 450
-      rotX: -0
-      rotY: 90.00001
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 7
-      nodePosZ: 4
-      posX: 650
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 90
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 6
-      nodePosZ: 3
-      posX: 600
-      posY: 14
-      posZ: 300
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 500
-      posY: 14
-      posZ: 300
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
-      nodePosZ: 3
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 3
-      nodePosZ: 3
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 4
-      nodePosZ: 3
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 450
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 5
-      nodePosZ: 4
-      posX: 500
-      posY: 0
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 6
-      nodePosZ: 4
-      posX: 600
-      posY: 0
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 7
-      nodePosZ: 4
-      posX: 650
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 7
-      nodePosZ: 5
-      posX: 650
-      posY: 14
-      posZ: 550
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 7
-      nodePosZ: 6
       posX: 700
-      posY: 14
-      posZ: 600
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 3
-      nodePosZ: 3
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 4
-      nodePosZ: 3
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: RotatorY
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 500
       posY: 0
       posZ: 300
       rotX: -0
       rotY: 0
       rotZ: 0
     - obj_id: SizeMinMax
-      nodePosX: 6
-      nodePosZ: 3
-      posX: 550
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 6
-      nodePosZ: 4
-      posX: 600
-      posY: 0
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
       nodePosX: 7
       nodePosZ: 4
       posX: 700
       posY: 0
       posZ: 400
       rotX: -0
-      rotY: 0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 7
+      nodePosZ: 5
+      posX: 700
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
       rotZ: 0
     - obj_id: UpDown
-      nodePosX: 8
-      nodePosZ: 4
-      posX: 750
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
       posY: 0
-      posZ: 350
+      posZ: 500
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 0
+      posZ: 500
       rotX: -0
       rotY: 90.00001
       rotZ: 0
-    - obj_id: UpDownBallStop
+    - obj_id: End
+      nodePosX: 5
+      nodePosZ: 6
+      posX: 500
+      posY: 0
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 4
+      nodePosZ: 4
+      posX: 400
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 4
+      nodePosZ: 5
+      posX: 400
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 4
+      nodePosZ: 6
+      posX: 400
+      posY: 0
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 4
+      nodePosZ: 7
+      posX: 400
+      posY: 0
+      posZ: 700
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 5
+      nodePosZ: 7
+      posX: 500
+      posY: 0
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 6
+      nodePosZ: 7
+      posX: 600
+      posY: 0
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 4
+      nodePosZ: 4
+      posX: 400
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 4
+      nodePosZ: 5
+      posX: 400
+      posY: 0
+      posZ: 500
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 6
+      nodePosZ: 3
+      posX: 600
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 7
+      nodePosZ: 3
+      posX: 700
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
       nodePosX: 8
       nodePosZ: 3
       posX: 800
@@ -802,37 +401,509 @@ MonoBehaviour:
       rotX: -0
       rotY: 0
       rotZ: 0
-    - obj_id: LeftRight
+    - obj_id: RotateToLeft
       nodePosX: 9
       nodePosZ: 3
       posX: 900
-      posY: 14
+      posY: 0
       posZ: 300
       rotX: -0
       rotY: 0
       rotZ: 0
     - obj_id: End
-      nodePosX: 10
-      nodePosZ: 3
-      posX: 950
-      posY: 14
-      posZ: 350
+      nodePosX: 9
+      nodePosZ: 4
+      posX: 900
+      posY: 0
+      posZ: 400
       rotX: -0
       rotY: 270
       rotZ: 0
   - saveableLevelObjects_List:
     - obj_id: StartField
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 400
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
       posY: 0
       posZ: 300
       rotX: -0
       rotY: 0
       rotZ: 0
     - obj_id: LeftRight
-      nodePosX: 0
-      nodePosZ: 0
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 5
+      nodePosZ: 4
+      posX: 500
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 6
+      posX: 500
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 4
+      nodePosZ: 6
+      posX: 400
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 3
+      nodePosZ: 6
+      posX: 300
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 2
+      nodePosZ: 6
+      posX: 200
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 2
+      nodePosZ: 5
+      posX: 200
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 4
+      nodePosZ: 4
+      posX: 400
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 4
+      nodePosZ: 5
+      posX: 400
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 4
+      nodePosZ: 6
+      posX: 400
+      posY: 0
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 4
+      nodePosZ: 7
+      posX: 400
+      posY: 14
+      posZ: 700
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 5
+      nodePosZ: 7
+      posX: 500
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 6
+      nodePosZ: 7
+      posX: 600
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 7
+      nodePosZ: 7
+      posX: 700
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 7
+      nodePosZ: 6
+      posX: 700
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 7
+      nodePosZ: 5
+      posX: 700
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 8
+      nodePosZ: 5
+      posX: 800
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 5
+      nodePosZ: 4
+      posX: 500
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 4
+      nodePosZ: 5
+      posX: 400
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 3
+      nodePosZ: 5
+      posX: 300
+      posY: 28
+      posZ: 500
+      rotX: -0
+      rotY: 90.00001
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 3
+      nodePosZ: 6
+      posX: 300
+      posY: 28
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 3
+      nodePosZ: 7
+      posX: 300
+      posY: 28
+      posZ: 700
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 4
+      nodePosZ: 7
+      posX: 400
+      posY: 28
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 7
+      posX: 500
+      posY: 28
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 5
+      nodePosZ: 8
+      posX: 500
+      posY: 28
+      posZ: 800
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 3
+      nodePosZ: 4
+      posX: 300
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 4
+      nodePosZ: 4
+      posX: 400
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 5
+      nodePosZ: 4
+      posX: 500
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 6
+      nodePosZ: 6
+      posX: 600
+      posY: 0
+      posZ: 600
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 7
+      nodePosZ: 6
+      posX: 700
+      posY: 0
+      posZ: 600
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 8
+      nodePosZ: 6
+      posX: 800
+      posY: 0
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 8
+      nodePosZ: 5
+      posX: 800
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 8
+      nodePosZ: 4
+      posX: 800
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 8
+      nodePosZ: 3
+      posX: 800
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 0.000010017912
+      rotZ: -0
+    - obj_id: LeftRight
+      nodePosX: 7
+      nodePosZ: 3
+      posX: 700
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 6
+      nodePosZ: 3
+      posX: 600
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 3
       posX: 500
       posY: 0
       posZ: 300
@@ -840,8 +911,117 @@ MonoBehaviour:
       rotY: 0
       rotZ: 0
     - obj_id: BasicJumpField
-      nodePosX: 0
-      nodePosZ: 0
+      nodePosX: 5
+      nodePosZ: 4
+      posX: 500
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 0
+      posZ: 500
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 7
+      nodePosZ: 5
+      posX: 700
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 8
+      nodePosZ: 5
+      posX: 800
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 8
+      nodePosZ: 6
+      posX: 800
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 8
+      nodePosZ: 7
+      posX: 800
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 8
+      nodePosZ: 8
+      posX: 800
+      posY: 14
+      posZ: 800
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 9
+      nodePosZ: 8
+      posX: 900
+      posY: 14
+      posZ: 800
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 6
+      nodePosZ: 3
       posX: 600
       posY: 0
       posZ: 300
@@ -849,536 +1029,888 @@ MonoBehaviour:
       rotY: 0
       rotZ: 0
     - obj_id: SizeMinMax
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 650
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
       posY: 0
-      posZ: 350
+      posZ: 400
       rotX: -0
       rotY: 270
       rotZ: 0
-    - obj_id: RotatorY
-      nodePosX: 0
-      nodePosZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 0
+      posZ: 500
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 7
+      nodePosZ: 5
       posX: 700
       posY: 0
-      posZ: 400
+      posZ: 500
       rotX: -0
       rotY: 0
       rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 0
-      nodePosZ: 0
+    - obj_id: Rotator
+      nodePosX: 8
+      nodePosZ: 5
       posX: 800
       posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 9
+      nodePosZ: 5
+      posX: 900
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 9
+      nodePosZ: 4
+      posX: 900
+      posY: 0
       posZ: 400
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 9
+      nodePosZ: 3
+      posX: 900
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 10
+      nodePosZ: 3
+      posX: 1000
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 11
+      nodePosZ: 3
+      posX: 1100
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 12
+      nodePosZ: 3
+      posX: 1200
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 12
+      nodePosZ: 4
+      posX: 1200
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 6
+      nodePosZ: 3
+      posX: 600
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 7
+      nodePosZ: 3
+      posX: 700
+      posY: 0
+      posZ: 300
       rotX: -0
       rotY: 0
       rotZ: 0
     - obj_id: SizeMinMax
-      nodePosX: 0
-      nodePosZ: 0
+      nodePosX: 7
+      nodePosZ: 4
+      posX: 700
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 7
+      nodePosZ: 5
+      posX: 700
+      posY: 0
+      posZ: 500
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 8
+      nodePosZ: 5
+      posX: 800
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 9
+      nodePosZ: 5
+      posX: 900
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 10
+      nodePosZ: 5
+      posX: 1000
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 11
+      nodePosZ: 5
+      posX: 1100
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 11
+      nodePosZ: 4
+      posX: 1100
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 11
+      nodePosZ: 3
+      posX: 1100
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 11
+      nodePosZ: 2
+      posX: 1100
+      posY: 14
+      posZ: 200
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 12
+      nodePosZ: 2
+      posX: 1200
+      posY: 14
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: StickyField
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 5
+      nodePosZ: 4
+      posX: 500
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 6
+      posX: 500
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 4
+      nodePosZ: 6
+      posX: 400
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 3
+      nodePosZ: 6
+      posX: 300
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 2
+      nodePosZ: 6
+      posX: 200
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 90.00001
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 2
+      nodePosZ: 7
+      posX: 200
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 2
+      nodePosZ: 8
+      posX: 200
+      posY: 14
+      posZ: 800
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 1
+      nodePosZ: 8
+      posX: 100
+      posY: 14
+      posZ: 800
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 6
+      nodePosZ: 3
+      posX: 600
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 6
+      nodePosZ: 6
+      posX: 600
+      posY: 14
+      posZ: 600
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: StickyField
+      nodePosX: 7
+      nodePosZ: 6
+      posX: 700
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 8
+      nodePosZ: 6
+      posX: 800
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 8
+      nodePosZ: 5
+      posX: 800
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 8
+      nodePosZ: 4
+      posX: 800
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 9
+      nodePosZ: 4
       posX: 900
       posY: 14
       posZ: 400
       rotX: -0
       rotY: 0
       rotZ: 0
-    - obj_id: UpDown
+    - obj_id: StickyField
       nodePosX: 10
       nodePosZ: 4
-      posX: 950
+      posX: 1000
       posY: 14
-      posZ: 350
+      posZ: 400
       rotX: -0
-      rotY: 90.00001
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 11
+      nodePosZ: 4
+      posX: 1100
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 11
+      nodePosZ: 5
+      posX: 1100
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 6
+      nodePosZ: 3
+      posX: 600
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 6
+      nodePosZ: 6
+      posX: 600
+      posY: 14
+      posZ: 600
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 7
+      nodePosZ: 6
+      posX: 700
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 0
       rotZ: 0
     - obj_id: RotatorY
-      nodePosX: 10
-      nodePosZ: 3
-      posX: 950
+      nodePosX: 8
+      nodePosZ: 6
+      posX: 800
       posY: 14
-      posZ: 250
+      posZ: 600
       rotX: -0
-      rotY: 90.00001
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 9
+      nodePosZ: 6
+      posX: 900
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 9
+      nodePosZ: 5
+      posX: 900
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 9
+      nodePosZ: 4
+      posX: 900
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 10
+      nodePosZ: 4
+      posX: 1000
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 6
+      nodePosZ: 3
+      posX: 600
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 6
+      nodePosZ: 6
+      posX: 600
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 6
+      nodePosZ: 7
+      posX: 600
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 5
+      nodePosZ: 7
+      posX: 500
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 4
+      nodePosZ: 7
+      posX: 400
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 3
+      nodePosZ: 7
+      posX: 300
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 3
+      nodePosZ: 6
+      posX: 300
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 3
+      nodePosZ: 5
+      posX: 300
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 0.000010017912
+      rotZ: -0
+    - obj_id: End
+      nodePosX: 2
+      nodePosZ: 5
+      posX: 200
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 2
+      posX: 200
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 3
+      nodePosZ: 2
+      posX: 300
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: JumpPushField
+      nodePosX: 4
+      nodePosZ: 2
+      posX: 400
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 2
+      posX: 500
+      posY: 29.3
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 29.3
+      posZ: 300
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 5
+      nodePosZ: 4
+      posX: 500
+      posY: 29.3
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 29.3
+      posZ: 500
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 29.3
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 7
+      nodePosZ: 5
+      posX: 700
+      posY: 43.3
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 8
+      nodePosZ: 5
+      posX: 800
+      posY: 43.3
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 8
+      nodePosZ: 4
+      posX: 800
+      posY: 43.3
+      posZ: 400
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 8
+      nodePosZ: 3
+      posX: 800
+      posY: 43.3
+      posZ: 300
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 8
+      nodePosZ: 2
+      posX: 800
+      posY: 43.3
+      posZ: 200
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 9
+      nodePosZ: 2
+      posX: 900
+      posY: 43.3
+      posZ: 200
+      rotX: -0
+      rotY: 0
       rotZ: 0
     - obj_id: End
       nodePosX: 10
       nodePosZ: 2
       posX: 1000
-      posY: 14
-      posZ: 200
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
-      nodePosZ: 3
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 3
-      nodePosZ: 3
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: StickyField
-      nodePosX: 4
-      nodePosZ: 3
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 450
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: RotatorY
-      nodePosX: 5
-      nodePosZ: 4
-      posX: 450
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 4
-      nodePosZ: 5
-      posX: 400
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 3
-      nodePosZ: 5
-      posX: 300
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 3
-      nodePosZ: 6
-      posX: 250
-      posY: 14
-      posZ: 550
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 2
-      nodePosZ: 6
-      posX: 200
-      posY: 14
-      posZ: 600
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
-      nodePosZ: 3
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 3
-      nodePosZ: 3
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 4
-      nodePosZ: 3
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 500
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: RotatorY
-      nodePosX: 6
-      nodePosZ: 3
-      posX: 550
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 6
-      nodePosZ: 4
-      posX: 550
-      posY: 0
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: StickyField
-      nodePosX: 6
-      nodePosZ: 5
-      posX: 600
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 7
-      nodePosZ: 5
-      posX: 650
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 90.00001
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 7
-      nodePosZ: 4
-      posX: 700
-      posY: 14
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: StickyField
-      nodePosX: 8
-      nodePosZ: 4
-      posX: 800
-      posY: 14
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 9
-      nodePosZ: 4
-      posX: 850
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: BouncyStickMinMaxField
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 500
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 550
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 0
-      nodePosZ: 0
-      posX: 550
-      posY: 0
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 6
-      nodePosZ: 5
-      posX: 600
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: RotatorY
-      nodePosX: 7
-      nodePosZ: 5
-      posX: 700
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 8
-      nodePosZ: 5
-      posX: 750
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 90
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 8
-      nodePosZ: 4
-      posX: 800
-      posY: 14
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
-      nodePosZ: 3
-      posX: 200
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 3
-      nodePosZ: 3
-      posX: 300
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 4
-      nodePosZ: 3
-      posX: 400
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: BouncyStickMinMaxField
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 500
-      posY: 0
-      posZ: 300
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 6
-      nodePosZ: 3
-      posX: 550
-      posY: 0
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 6
-      nodePosZ: 4
-      posX: 550
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: RotatorY
-      nodePosX: 6
-      nodePosZ: 5
-      posX: 550
-      posY: 14
-      posZ: 550
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 5
-      nodePosZ: 6
-      posX: 500
-      posY: 14
-      posZ: 600
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 4
-      nodePosZ: 6
-      posX: 400
-      posY: 14
-      posZ: 600
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: BouncyStickMinMaxField
-      nodePosX: 4
-      nodePosZ: 5
-      posX: 350
-      posY: 14
-      posZ: 550
-      rotX: -0
-      rotY: 90
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 3
-      nodePosZ: 5
-      posX: 300
-      posY: 14
-      posZ: 500
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-  - saveableLevelObjects_List:
-    - obj_id: StartField
-      nodePosX: 2
-      nodePosZ: 2
-      posX: 200
-      posY: 0
-      posZ: 200
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: RotatorY
-      nodePosX: 3
-      nodePosZ: 2
-      posX: 300
-      posY: 0
-      posZ: 200
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: JumpPushField
-      nodePosX: 4
-      nodePosZ: 2
-      posX: 400
-      posY: 0
-      posZ: 200
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 5
-      nodePosZ: 2
-      posX: 450
-      posY: 29.3
-      posZ: 250
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 5
-      nodePosZ: 3
-      posX: 450
-      posY: 29.3
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: UpDownBallStop
-      nodePosX: 5
-      nodePosZ: 4
-      posX: 500
-      posY: 29.3
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: Rotator
-      nodePosX: 6
-      nodePosZ: 4
-      posX: 600
-      posY: 43.3
-      posZ: 400
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: BouncyStickMinMaxField
-      nodePosX: 7
-      nodePosZ: 4
-      posX: 650
-      posY: 43.3
-      posZ: 350
-      rotX: -0
-      rotY: 90
-      rotZ: 0
-    - obj_id: UpDown
-      nodePosX: 7
-      nodePosZ: 3
-      posX: 650
-      posY: 43.3
-      posZ: 250
-      rotX: -0
-      rotY: 90.00001
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 7
-      nodePosZ: 2
-      posX: 700
-      posY: 43.3
-      posZ: 200
-      rotX: -0
-      rotY: 0
-      rotZ: 0
-    - obj_id: End
-      nodePosX: 8
-      nodePosZ: 2
-      posX: 800
       posY: 43.3
       posZ: 200
       rotX: -0
@@ -1421,75 +1953,102 @@ MonoBehaviour:
       rotX: -0
       rotY: 0
       rotZ: 0
-    - obj_id: UpDown
+    - obj_id: RotateToLeft
       nodePosX: 7
       nodePosZ: 3
-      posX: 650
+      posX: 700
       posY: 29.3
-      posZ: 350
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 7
+      nodePosZ: 4
+      posX: 700
+      posY: 29.3
+      posZ: 400
       rotX: -0
       rotY: 270
       rotZ: 0
     - obj_id: UpDownBallStop
       nodePosX: 7
-      nodePosZ: 4
-      posX: 650
+      nodePosZ: 5
+      posX: 700
       posY: 29.3
-      posZ: 450
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 7
+      nodePosZ: 6
+      posX: 700
+      posY: 43.3
+      posZ: 600
       rotX: -0
       rotY: 270
       rotZ: 0
     - obj_id: SizeMinMax
       nodePosX: 6
-      nodePosZ: 5
+      nodePosZ: 6
       posX: 600
       posY: 43.3
-      posZ: 500
+      posZ: 600
       rotX: -0
       rotY: 180
       rotZ: 0
     - obj_id: BouncyStickMinMaxField
       nodePosX: 5
-      nodePosZ: 5
+      nodePosZ: 6
       posX: 500
       posY: 43.3
-      posZ: 500
+      posZ: 600
       rotX: -0
       rotY: 180
       rotZ: 0
     - obj_id: RotatorY
       nodePosX: 4
-      nodePosZ: 5
+      nodePosZ: 6
       posX: 400
       posY: 43.3
-      posZ: 500
+      posZ: 600
       rotX: -0
       rotY: 180
       rotZ: 0
-    - obj_id: StickyField
-      nodePosX: 4
+    - obj_id: RotateToRight
+      nodePosX: 3
       nodePosZ: 6
-      posX: 350
+      posX: 300
       posY: 43.3
-      posZ: 550
+      posZ: 600
       rotX: -0
-      rotY: 270
+      rotY: 90.00001
       rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 4
+    - obj_id: StickyField
+      nodePosX: 3
       nodePosZ: 7
-      posX: 350
+      posX: 300
       posY: 43.3
-      posZ: 650
+      posZ: 700
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 3
+      nodePosZ: 8
+      posX: 300
+      posY: 43.3
+      posZ: 800
       rotX: -0
       rotY: 270
       rotZ: 0
     - obj_id: End
-      nodePosX: 4
-      nodePosZ: 8
-      posX: 350
+      nodePosX: 3
+      nodePosZ: 9
+      posX: 300
       posY: 43.3
-      posZ: 750
+      posZ: 900
       rotX: -0
       rotY: 270
       rotZ: 0
@@ -1530,75 +2089,111 @@ MonoBehaviour:
       rotX: -0
       rotY: 0
       rotZ: 0
-    - obj_id: SizeMinMax
+    - obj_id: RotateToLeft
       nodePosX: 6
       nodePosZ: 3
-      posX: 550
+      posX: 600
       posY: 0
-      posZ: 350
+      posZ: 300
       rotX: -0
-      rotY: 270
+      rotY: 0
       rotZ: 0
-    - obj_id: UpDownBallStop
+    - obj_id: SizeMinMax
       nodePosX: 6
       nodePosZ: 4
       posX: 600
       posY: 0
       posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 0
+      posZ: 500
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 7
+      nodePosZ: 5
+      posX: 700
+      posY: 0
+      posZ: 500
       rotX: -0
       rotY: 0
       rotZ: 0
     - obj_id: Rotator
-      nodePosX: 7
-      nodePosZ: 4
-      posX: 700
+      nodePosX: 8
+      nodePosZ: 5
+      posX: 800
       posY: 14
-      posZ: 400
+      posZ: 500
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 9
+      nodePosZ: 5
+      posX: 900
+      posY: 14
+      posZ: 500
       rotX: -0
       rotY: 0
       rotZ: 0
     - obj_id: JumpPushField
-      nodePosX: 8
-      nodePosZ: 4
-      posX: 750
+      nodePosX: 9
+      nodePosZ: 6
+      posX: 900
       posY: 14
-      posZ: 450
+      posZ: 600
       rotX: -0
       rotY: 270
       rotZ: 0
     - obj_id: SizeMinMax
-      nodePosX: 7
-      nodePosZ: 5
-      posX: 750
+      nodePosX: 9
+      nodePosZ: 7
+      posX: 900
       posY: 43.3
-      posZ: 550
+      posZ: 700
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 9
+      nodePosZ: 8
+      posX: 900
+      posY: 43.3
+      posZ: 800
       rotX: -0
       rotY: 270
       rotZ: 0
     - obj_id: BouncyStickMinMaxField
-      nodePosX: 7
-      nodePosZ: 6
-      posX: 700
+      nodePosX: 8
+      nodePosZ: 8
+      posX: 800
       posY: 43.3
-      posZ: 600
+      posZ: 800
       rotX: -0
       rotY: 180
       rotZ: 0
     - obj_id: UpDown
-      nodePosX: 6
-      nodePosZ: 6
-      posX: 600
+      nodePosX: 7
+      nodePosZ: 8
+      posX: 700
       posY: 43.3
-      posZ: 600
+      posZ: 800
       rotX: -0
       rotY: 180
       rotZ: 0
     - obj_id: End
-      nodePosX: 5
-      nodePosZ: 6
-      posX: 500
+      nodePosX: 6
+      nodePosZ: 8
+      posX: 600
       posY: 43.3
-      posZ: 600
+      posZ: 800
       rotX: -0
       rotY: 180
       rotZ: 0
@@ -1639,93 +2234,138 @@ MonoBehaviour:
       rotX: -0
       rotY: 0
       rotZ: 0
-    - obj_id: UpDown
+    - obj_id: RotateToLeft
       nodePosX: 6
       nodePosZ: 3
-      posX: 550
+      posX: 600
       posY: 14
-      posZ: 350
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: BasicJumpField
-      nodePosX: 5
-      nodePosZ: 4
-      posX: 500
-      posY: 14
-      posZ: 400
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: RotatorY
-      nodePosX: 4
-      nodePosZ: 4
-      posX: 400
-      posY: 14
-      posZ: 400
-      rotX: -0
-      rotY: 180
-      rotZ: 0
-    - obj_id: SizeMinMax
-      nodePosX: 3
-      nodePosZ: 4
-      posX: 350
-      posY: 14
-      posZ: 450
-      rotX: -0
-      rotY: 270
-      rotZ: 0
-    - obj_id: LeftRight
-      nodePosX: 4
-      nodePosZ: 5
-      posX: 400
-      posY: 14
-      posZ: 500
+      posZ: 300
       rotX: -0
       rotY: 0
       rotZ: 0
-    - obj_id: BouncyStickMinMaxField
-      nodePosX: 5
-      nodePosZ: 5
-      posX: 500
+    - obj_id: UpDown
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
       posY: 14
-      posZ: 500
+      posZ: 400
       rotX: -0
-      rotY: 0
+      rotY: 270
       rotZ: 0
-    - obj_id: UpDownBallStop
+    - obj_id: RotateToLeft
       nodePosX: 6
       nodePosZ: 5
       posX: 600
       posY: 14
       posZ: 500
       rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 4
+      nodePosZ: 5
+      posX: 400
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 3
+      nodePosZ: 5
+      posX: 300
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 90.00001
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 3
+      nodePosZ: 6
+      posX: 300
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 3
+      nodePosZ: 7
+      posX: 300
+      posY: 14
+      posZ: 700
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 4
+      nodePosZ: 7
+      posX: 400
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 5
+      nodePosZ: 7
+      posX: 500
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 6
+      nodePosZ: 7
+      posX: 600
+      posY: 14
+      posZ: 700
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 7
+      nodePosZ: 7
+      posX: 700
+      posY: 28
+      posZ: 700
+      rotX: -0
       rotY: 0
       rotZ: 0
     - obj_id: UpDown
       nodePosX: 7
-      nodePosZ: 5
-      posX: 650
+      nodePosZ: 8
+      posX: 700
       posY: 28
-      posZ: 550
+      posZ: 800
       rotX: -0
       rotY: 270
       rotZ: 0
     - obj_id: JumpPushField
       nodePosX: 7
-      nodePosZ: 6
-      posX: 650
+      nodePosZ: 9
+      posX: 700
       posY: 28
-      posZ: 650
+      posZ: 900
       rotX: -0
       rotY: 270
       rotZ: 0
     - obj_id: End
       nodePosX: 7
-      nodePosZ: 8
-      posX: 650
+      nodePosZ: 10
+      posX: 700
       posY: 57.3
-      posZ: 750
+      posZ: 1000
       rotX: -0
       rotY: 270
       rotZ: 0
@@ -1794,6 +2434,290 @@ MonoBehaviour:
       rotX: -0
       rotY: 0
       rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 2
+      posX: 200
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: TeleporterField
+      nodePosX: 3
+      nodePosZ: 2
+      posX: 300
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 4
+      nodePosZ: 2
+      posX: 400
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 3
+      nodePosZ: 1
+      posX: 300
+      posY: 0
+      posZ: 100
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 4
+      nodePosZ: 1
+      posX: 400
+      posY: 0
+      posZ: 100
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: UpDown
+      nodePosX: 4
+      nodePosZ: 2
+      posX: 400
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 5
+      nodePosZ: 4
+      posX: 500
+      posY: 0
+      posZ: 400
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: SizeMinMax
+      nodePosX: 6
+      nodePosZ: 3
+      posX: 600
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 6
+      nodePosZ: 2
+      posX: 600
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0
+      posY: 0
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: JumpPushField
+      nodePosX: 1
+      nodePosZ: 0
+      posX: 100
+      posY: 0
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 2
+      nodePosZ: 0
+      posX: 200
+      posY: 29.3
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 2
+      posX: 200
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 3
+      nodePosZ: 2
+      posX: 300
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 4
+      nodePosZ: 2
+      posX: 400
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 1
+      posX: 200
+      posY: 0
+      posZ: 100
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 3
+      nodePosZ: 1
+      posX: 300
+      posY: 0
+      posZ: 100
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 3
+      nodePosZ: 2
+      posX: 300
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: UpDownBallStop
+      nodePosX: 4
+      nodePosZ: 3
+      posX: 400
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 5
+      nodePosZ: 3
+      posX: 500
+      posY: 14
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: LeftRight
+      nodePosX: 5
+      nodePosZ: 4
+      posX: 500
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 5
+      nodePosZ: 5
+      posX: 500
+      posY: 14
+      posZ: 500
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 6
+      nodePosZ: 5
+      posX: 600
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 6
+      nodePosZ: 4
+      posX: 600
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 90
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 7
+      nodePosZ: 4
+      posX: 700
+      posY: 14
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 7
+      nodePosZ: 5
+      posX: 700
+      posY: 14
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 7
+      nodePosZ: 6
+      posX: 700
+      posY: 14
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
   - saveableLevelObjects_List: []
   - saveableLevelObjects_List: []
   - saveableLevelObjects_List: []
@@ -1801,18 +2725,265 @@ MonoBehaviour:
   - saveableLevelObjects_List: []
   - saveableLevelObjects_List: []
   - saveableLevelObjects_List: []
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 200
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 300
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: BasicJumpField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: JumpPushField
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: JumpPushField
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: JumpPushField
+      nodePosX: 2
+      nodePosZ: 2
+      posX: 200
+      posY: 0
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: StartField
+      nodePosX: 3
+      nodePosZ: 2
+      posX: 300
+      posY: 29.3
+      posZ: 200
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: StartField
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
   - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
-  - saveableLevelObjects_List: []
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 1
+      nodePosZ: 3
+      posX: 100
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: Rotator
+      nodePosX: 2
+      nodePosZ: 3
+      posX: 200
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 3
+      nodePosZ: 3
+      posX: 300
+      posY: 0
+      posZ: 300
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: TeleporterField
+      nodePosX: 3
+      nodePosZ: 4
+      posX: 300
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: JumpPushField
+      nodePosX: 3
+      nodePosZ: 5
+      posX: 300
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 3
+      nodePosZ: 6
+      posX: 300
+      posY: 29.3
+      posZ: 600
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 4
+      nodePosZ: 6
+      posX: 400
+      posY: 29.3
+      posZ: 600
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 5
+      nodePosZ: 6
+      posX: 500
+      posY: 29.3
+      posZ: 600
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+  - saveableLevelObjects_List:
+    - obj_id: StartField
+      nodePosX: 2
+      nodePosZ: 4
+      posX: 200
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BasicJumpField
+      nodePosX: 3
+      nodePosZ: 4
+      posX: 300
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToLeft
+      nodePosX: 4
+      nodePosZ: 4
+      posX: 400
+      posY: 0
+      posZ: 400
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: TeleporterField
+      nodePosX: 4
+      nodePosZ: 5
+      posX: 400
+      posY: 0
+      posZ: 500
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 4
+      nodePosZ: 6
+      posX: 400
+      posY: 0
+      posZ: 600
+      rotX: 0
+      rotY: 180
+      rotZ: 0
+    - obj_id: RotatorY
+      nodePosX: 5
+      nodePosZ: 6
+      posX: 500
+      posY: 0
+      posZ: 600
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: JumpPushField
+      nodePosX: 6
+      nodePosZ: 6
+      posX: 600
+      posY: 0
+      posZ: 600
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: BouncyStickMinMaxField
+      nodePosX: 7
+      nodePosZ: 6
+      posX: 700
+      posY: 29.3
+      posZ: 600
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+    - obj_id: RotateToRight
+      nodePosX: 8
+      nodePosZ: 6
+      posX: 800
+      posY: 29.3
+      posZ: 600
+      rotX: -0
+      rotY: 270
+      rotZ: 0
+    - obj_id: End
+      nodePosX: 8
+      nodePosZ: 5
+      posX: 800
+      posY: 29.3
+      posZ: 500
+      rotX: -0
+      rotY: 90.00001
+      rotZ: 0
   - saveableLevelObjects_List: []
   - saveableLevelObjects_List: []
   - saveableLevelObjects_List: []

@@ -43,8 +43,13 @@ public class PermissionToStopTheObject : MonoBehaviour
                 playerTransform.rotation = transform.rotation;
 
             }
+
             if (isPermissionToStop)
-                buttonManager.permissionToStopObject = true;
+            {
+                 buttonManager.permissionToStopObject = true;
+                 playerMove.StartParticle();
+            }
+               
             isPermissionToStop = false;
         }
         BackTheBallToMiddle();
@@ -59,8 +64,12 @@ public class PermissionToStopTheObject : MonoBehaviour
                 playerTransform.rotation = transform.rotation;
 
             }
+
             if (isPermissionToStop)
+            {
                 buttonManager.permissionToStopObject = true;
+                playerMove.StartParticle();
+            }
         }
     }
 

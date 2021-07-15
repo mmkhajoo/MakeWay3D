@@ -39,12 +39,15 @@ public class StickyGround : MonoBehaviour
 
     public Vector3 rotation;
 
+    private GameManager _gameManager;
+
 
     void Start()
     {
         isRotate = false;
         hitTargetPosition.projectileBody = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
         _playerMove = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>();
+        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
 
         transformRotation.eulerAngles = rotation;
         ground.IsMove = true;
@@ -63,20 +66,20 @@ public class StickyGround : MonoBehaviour
 
         if (!ground.IsMove)
         {
-            RemoveJoint();
+            if(!castOnceForStart)return;
+                RemoveJoint();
             hitTargetPosition.ShootToTarget();
-            ground.IsMove = true;
+//            ground.IsMove = true;
             pointer.SetActive(false);
             isRotate = false;
-            castOnce = true;
-            castOnceForStart = true;
+            castOnceForStart = false;
         }
-        else
-        {
-            if (!castOnceForStart) return;
-            StartCoroutine(BackToStartRotation());
-                castOnceForStart = false;
-        }
+//        else
+//        {
+//            if (!castOnceForStart) return;
+//            StartCoroutine(BackToStartRotation());
+//                castOnceForStart = false;
+//        }
     }
 
     private void OnCollisionEnter(Collision other)
@@ -95,6 +98,11 @@ public class StickyGround : MonoBehaviour
                 if (isShouldRotate)
                     isRotate = true;
                 castOnce = false;
+            }
+
+            if (!ground.IsMove)
+            {
+                _gameManager.GameOver();
             }
         }
     }

@@ -57,8 +57,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067482122429928}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 1, z: 4}
+  m_LocalPosition: {x: 41.66, y: 0, z: 0}
+  m_LocalScale: {x: 16.68, y: 1, z: 4}
   m_Children:
   - {fileID: 4960015637821330}
   m_Father: {fileID: 4123771063503286}
@@ -102,7 +102,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 81550ee3e22794d4e8c74c439b220ef4, type: 2}
+  - {fileID: 2100000, guid: 66bb4398d649f7c4e9b180adadf7fb54, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -187,7 +187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c4e101868d9dac14bb07fd923097ef91, type: 2}
+  - {fileID: 2100000, guid: 94ed33614a600d441b2fdd69b8520aca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -472,7 +472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225236185498660}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.7, y: 0, z: 0}
+  m_LocalPosition: {x: 45.2, y: 0, z: 0}
   m_LocalScale: {x: 0.099999994, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 4123771063503286}
@@ -576,7 +576,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 81550ee3e22794d4e8c74c439b220ef4, type: 2}
+  - {fileID: 2100000, guid: 66bb4398d649f7c4e9b180adadf7fb54, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -708,7 +708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265856951192352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32, y: 0, z: 0}
+  m_LocalPosition: {x: 23.06, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 1, z: 4}
   m_Children:
   - {fileID: 4672642223350850}
@@ -741,7 +741,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c4e101868d9dac14bb07fd923097ef91, type: 2}
+  - {fileID: 2100000, guid: 94ed33614a600d441b2fdd69b8520aca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -953,8 +953,8 @@ MonoBehaviour:
   upDirection: {x: 0, y: 1, z: 0}
   tweenRigidbody: 0
   wps:
-  - {x: 32, y: 5, z: 0}
-  - {x: 32, y: -5, z: 0}
+  - {x: 23.06, y: 5, z: 0}
+  - {x: 23.06, y: -5, z: 0}
   fullWps: []
   path:
     wpLengths:
@@ -966,10 +966,10 @@ MonoBehaviour:
     subdivisionsXSegment: 10
     subdivisions: 40
     wps:
-    - {x: 32, y: 0, z: 0}
-    - {x: 32, y: 5, z: 0}
-    - {x: 32, y: -5, z: 0}
-    - {x: 32, y: 0, z: 0}
+    - {x: 23.06, y: 0, z: 0}
+    - {x: 23.06, y: 5, z: 0}
+    - {x: 23.06, y: -5, z: 0}
+    - {x: 23.06, y: 0, z: 0}
     controlPoints: []
     length: 20
     isFinalized: 1
@@ -988,7 +988,7 @@ MonoBehaviour:
   showIndexes: 1
   showWpLength: 0
   pathColor: {r: 1, g: 1, b: 1, a: 0.5}
-  lastSrcPosition: {x: 32, y: 0, z: 0}
+  lastSrcPosition: {x: 23.06, y: 0, z: 0}
   wpsDropdown: 1
   dropToFloorOffset: 0
 --- !u!1 &1414965913918392
@@ -1249,7 +1249,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 10, z: 0.00001}
+  m_Size: {x: 3, y: 10, z: 0.00001}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114285397105498968
 MonoBehaviour:
@@ -1379,7 +1379,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 100, y: 1, z: 6}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -20, z: 0}
 --- !u!1 &1708744696067506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,7 +1616,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c4e101868d9dac14bb07fd923097ef91, type: 2}
+  - {fileID: 2100000, guid: 94ed33614a600d441b2fdd69b8520aca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1739,7 +1739,7 @@ MonoBehaviour:
   m_Script: {fileID: -333801856, guid: aa0b1eebb5db27a419fa4564bbe5c9c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateType: 0
+  updateType: 2
   isSpeedBased: 0
   hasOnStart: 0
   hasOnPlay: 0
@@ -1831,29 +1831,29 @@ MonoBehaviour:
   tweenRigidbody: 0
   wps:
   - {x: -20, y: 23, z: 0}
-  - {x: 32, y: 23, z: 0}
+  - {x: 25, y: 23, z: 0}
   fullWps: []
   path:
     wpLengths:
     - 0
     - 6
-    - 52
-    - 46
+    - 45
+    - 39
     type: 0
     subdivisionsXSegment: 10
     subdivisions: 40
     wps:
     - {x: -14, y: 23, z: 0}
     - {x: -20, y: 23, z: 0}
-    - {x: 32, y: 23, z: 0}
+    - {x: 25, y: 23, z: 0}
     - {x: -14, y: 23, z: 0}
     controlPoints: []
-    length: 104
+    length: 90
     isFinalized: 1
     timesTable:
     - 0
-    - 0.057692308
-    - 0.5576923
+    - 0.06666667
+    - 0.56666666
     - 1
     lengthsTable: []
   inspectorMode: 0
